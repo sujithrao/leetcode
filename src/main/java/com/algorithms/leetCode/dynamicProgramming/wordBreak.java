@@ -1,9 +1,13 @@
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 /**
  * WordBreak example:
  * s = "catsandogs" dict= ["cats", "sand", "dog"] - false
  */
 
-class Solution {
+class wordBreak {
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> wordDictSet = new HashSet<>(wordDict);
         boolean[] dp = new boolean[s.length() + 1];
