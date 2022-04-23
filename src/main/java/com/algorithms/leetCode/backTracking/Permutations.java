@@ -6,31 +6,26 @@ import java.util.List;
 
 public class Permutations {
 
-    public static void helper(List<List<Integer>> result, List<Integer> current, int[] nums, int index) {
+    public static void helper(List<List<Integer>> result, List<Integer> current, int index) {
 
-        if(nums.length == index) {
+        if(current.size() == index) {
             result.add(new ArrayList<>(current));
-            for(int i = index; i < nums.length; i++) {
-                swap(nums,index, i);
-                current.add(nums[i]);
-                helper(result, current, nums, index + 1);
-                swap(nums, index, i);
-            }
         }
-    }
-
-    public static void swap(int[] nums, int index, int i) {
-        int temp = nums[index];
-        nums[index] = nums[i];
-        nums[i] = temp;
+        for(int i = index; i < current.size(); i++) {
+            Collections.swap(current,index, i);
+            helper(result, current, index + 1);
+            Collections.swap(current, index, i);
+        }
     }
 
 
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> current = new ArrayList<>();
-
-        helper(result, current, nums, 0);
+        for(int num : nums) {
+            current.add(num);
+        }
+        helper(result, current, 0);
         return result;
     }
 

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3f3295-36b5-496d-850f-64bc0d98a9a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/SubsetsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../../mvn/apache-maven-3.6.3/bin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="50" selection-start-line="30" selection-end-line="31" />
+            <state relative-caret-position="219">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/SubsetsII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +85,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/dynamicProgramming/wordBreak.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Subsets.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/CombinationSums.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/SubsetsII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java" />
       </list>
     </option>
   </component>
@@ -246,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubsetsII">
+  <component name="RunManager" selected="Application.Permutations">
     <configuration name="CombinationSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.algorithms.leetCode.backTracking.CombinationSums" />
       <module name="leetcode" />
@@ -314,8 +312,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.CombinationSums" />
         <item itemvalue="Application.Subsets (1)" />
         <item itemvalue="Application.Subsets" />
@@ -337,7 +335,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10248000" />
+    <option name="totallyTimeSpent" value="10610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,9 +348,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15379113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15379113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -361,16 +358,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25301206" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25301206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.3048193" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.3048193" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3048193" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -424,16 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="50" selection-start-line="30" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Subsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -446,8 +433,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/SubsetsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/leetCode/backTracking/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
