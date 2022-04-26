@@ -1,0 +1,6 @@
+Leetcode link: https://leetcode.com/problems/word-break/submissions/
+youtube: https://www.youtube.com/watch?v=Sx9NNgInc3A
+
+Basic idea:
+
+Get the dict to compare with the string and see if they match. Use DP
